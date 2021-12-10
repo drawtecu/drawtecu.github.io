@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	background: #81ecec;
+	font-family: sans-serif;
+}
+
+h2 {
+	color: red;
+}
+
+a {
+	background-color: white;
+	padding: 20px 20px;
+	border-radius: 16px;
+	text-decoration: none;
+	color: black;
+	box-shadow: blue 30px;
+}
