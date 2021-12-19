@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10%;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.menu-title {
+	color: black;
+}
+
+header {
+		webkit-backdrop-filter: blur(10px);
+	 background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+header .menu a {
+	list-style: none;
+	float: left;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	  background:
+    linear-gradient(currentColor 0 0) top,
+    linear-gradient(currentColor 0 0) left,
+    linear-gradient(currentColor 0 0) bottom,
+    linear-gradient(currentColor 0 0) right;
+  background-size: var(--d, 0) 3px, 3px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.2s;
+
+}
+
+header .menu a:hover {
+	--d: 100%;
+}
+
+header h3 {
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+.fa-compact-disc {
+	font-size: 40px;
+	color: #2c2c54;
+}
+
+ /* create Flexbox*/
+.path-box {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 12%;
+	flex-wrap: wrap;
+}
+
+.path-main {
+	flex-basis:30%;
+	overflow: hidden;
+	webkit-backdrop-filter: blur(10px);
+	 background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  margin-bottom: 45px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.path-main img {
+	 display: block;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.fivek-rules {
+	color: #192a56;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.path-main-title {
+	margin-top: 5px;
+	text-align: left;
+	margin-left: 12px;
+}
+
+.path-main-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.path-main i {
+	font-size: 22px;
+	margin-right: 12px;
+}
+
+.path-main Video {
+	display: block;
+	max-width: 100%;
+}
+
+.path-main a {
+	text-decoration: none;
+	color: black;
+}
+
+.path-main h4 {
+	text-align: center;
+	color: black;
+	font-weight: normal;
+}
+
+.path-main:nth-child(1) {
+	background-color: white;
+}
+
+.path-main:nth-child(1):hover {
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(243, 104, 224) 0px 0px 0px 3px;
+	transform:translateY(-0.5rem);
+	border-width: 0.01px; 
+}
+
+.path-main:not(:hover) {
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+	transform:translateY(0.5rem);
+}
+
+/*-----------------------------End-of-page-------------------------------------*/
+.end-of-page {
+	padding: 20px 10px;
+	background-color: #2c2c54;
+	color: white;
+}
+
+.end-of-page ul {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.end-of-page li {
+	display: inline;
+	margin: 0 20px;
+	text-align: center;
+	background-color: #40407a;
+	padding: 10px 20px;
+	border-radius: 50px;
+}
+
+.end-of-page h2 {
+	text-align: center;
+}
+
+.end-of-page h5 {
+	text-align: center;
+	color: #575fcf;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" type="text/css" href="Sub Page 2.css">
+<title>ANIMAL</title>
+</head>
+<body>
+
+<header>
+	<button onclick="history.back()"><i class="fas fa-arrow-left"></i> GO BACK</button>
+</div>
+<h3 >ANIMAL <i class="fas fa-paw"></i></h3>
+<div class="header-button">
+	
+	<input type="text" id="myInput" onkeyup="myFunction()" placeholder=" search by topic.." title="Type in a name">
+</div>
+
+</header>
+
+<ul id="myUL">
+
+  <li>
+  	<div class="path-main-2 sidebar-two-2">
+			<img src="convat1.jpg" ><br>
+			<div class="path-main-2-title">
+			<a href="" >RABBIT</a><br></div>
+			<div class="path-main-2-des">
+ <a href="convat1.jpg" download="_blank">
+       DOWNLOAD
+    </a>
+
+			</div>
+	</div>
+</li>
+
+  <li>
+  	<div class="path-main-2 sidebar-two-2">
+			<img src="convat2.jpg" ><br>
+			<div class="path-main-2-title">
+			<a href="" >CAT</a><br></div>
+			<div class="path-main-2-des">
+			<a href="convat2.jpg" download="_blank">DOWNLOAD</a>
+			</div>
+	</div>
+</li>
+
+  <li>		
+  	<div class="path-main-2 sidebar-two-2">
+			<img src="convat3.jpg" ><br>
+			<div class="path-main-2-title">
+			<a href="" >ORANGE GUM</a><br></div>
+			<div class="path-main-2-des">
+			<a href="convat3.jpg" download="_blank">DOWNLOAD</a>
+			</div>
+	</div>
+</li>
+
+  <li>		
+  	<div class="path-main-2 sidebar-two-2">
+			<img src="convat4.jpg" ><br>
+            <div class="path-main-2-title">
+			<a href="" >YELLOW GUM</a><br></div>
+			<div class="path-main-2-des">
+			<a href="convat4.jpg" download="_blank">DOWNLOAD</a>
+			</div>
+	</div>
+</li>
+</ul>
+
+<!-------------------------------------------------->
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<!------------------------------------------------------>
+<script>
+jQuery(document).ready(function() {
+  var downloadButton = jQuery('.et-download-button');
+   
+  downloadButton.each(function(index) {
+    jQuery(this).attr('download', 'image-file');
+  });
+});
+</script>
+</body>
+</html>
