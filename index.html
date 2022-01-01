@@ -3,113 +3,189 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Composite 2d Graphics</title>
-	<link rel="stylesheet" type="text/css" href="dự án 1.css">
+	<title>Plant</title>
+	<link rel="stylesheet" type="text/css" href="subpages1.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-	<link rel="stylesheet" type="text/css" href="Sub Pages.html">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-	<header>
-	<!--menu-->
-	<h3 class="menu-title">Composite 2d Graphics</h3>
-	<div class="menu">
-		<a href="congviec.html">Create A Website</a>
-		<a href="gioithieu.html">Follow</a>
-		<a href="https://unsplash.com/" target="_blank">Credit The Author</a>
-    </div>
-    <a href="https://www.facebook.com/fatthinae/?ref=pages_you_manage" target="_blank"><i class="fas fa-compact-disc"></i></a>
-    </header>
-<!------------------------------------------------------>
-<div class="path">
-	<div class="path-box">
-
-				<div class="path-main sidebar-3">
-			<a href="https://www.google.com/search?q=covid-19&rlz=1C1FKPE_viVN979VN979&oq=covid&aqs=chrome.2.69i57j0i131i433i512l2j0i433i512j0i131i433i512j69i60l3.8520j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><video autoplay loop muted  >
-                <source src="pexels-gabby-k-5839031.mp4" >
-            </video>
-            <h3 class="fivek-rules" style="color: #2980b9">5K RULES  <i class="fas fa-hand-sparkles"></i></h3>
-            <div class="fivek-rules-dsc">
-            <h4 style="background-color: #e74c3c; padding: 5px;"> No gatherings</h4>
-            <h4 style="background-color: #e67e22; padding: 5px;"> Face masks</h4>
-            <h4 style="background-color: #f1c40f; padding: 5px"> Distancing</h4>
-            <h4 style="background-color: #2ecc71; padding: 5px"> Disinfection</h4>
-            <h4 style="background-color: #1abc9c; padding: 5px"> Health declaration  </h4>
-            </div>
-		</div></a>
-
-				<div class="path-main sidebar-4">
-				<div class="path-main-color">
-			<a href="Sub Pages.html"><img src="flowers.png">
-			<div class="path-main-icon">
-			<h3 class="path-main-title">NATURE</h3>	
-			<i class="fas fa-seedling"></i>	
-			</div></a>	
-			</div>	
+	<div class="wrapper">
+		<div class="container__menu--top">
+			<header class="container__header--top">
+				<button onclick="history.back()"><i class="fas fa-arrow-left"></i> GO BACK</button>
+				<h3>PLANT</h3>
+			</header>
+		</div>
+		<div class="container__search">
+				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names...🥑🌼🌵" title="Type in a name" >
 		</div>
 
-				<div class="path-main sidebar-4">
-				<div class="path-main-color">
-			<a href="Sub Pages 2.html"><img src="zebra.png">
-			<div class="path-main-icon">
-			<h3 class="path-main-title">ANIMAL</h3>
-			<i class="fas fa-paw"></i>
-			</div></a>	
+		<div class="container__main">
+	<main class="container__main--hero">
+	<ul id="myUL">
+<li>
+  	<div class="container__main">
+			<img src="http://res.cloudinary.com/webalys/image/private/s--p95O3dPU--/v1631588267/family-covers/mini-line_qeerbm.svg"  width="250px" height="250px">
+			<a href="./">RABBIT</a>
+			<div class="container__main--color">
+				<div class="color" style="background-color: #2ecc71;"></div>
+				<div class="color" style="background-color: #27ae60;"></div>
+				<div class="color" style="background-color: #6ab04c;"></div>
+				<div class="color" style="background-color: #953B21;"></div>
+				<div class="color" style="background-color: #78392A;"></div>
 			</div>
-		</div>
+			<div class="container__main--overlay">
+				<div class="container__main--center">
+					<div class="container__main--center--hero">
+						<a href="./"><h4>COPY</h4></a>
+						<a href="./"><h4>SVG</h4></a>
+						<a href="./"><h4>PNG</h4></a>
+					</div>
+				</div>
+			</div>
+</div>
+</li>
 
-				<div class="path-main sidebar-4">
-				<div class="path-main-color">
-			<a href="Sub Pages 3.html"><img src="chicken.png">
-			<div class="path-main-icon">
-			<h3 class="path-main-title">FOODS</h3>	
-			<i class="fas fa-seedling"></i>	
-			</div></a>	
-			</div>	
-		</div>
-
-				<div class="path-main sidebar-4">
-				<div class="path-main-color">
-			<a href="Sub Pages 4.html"><img src="eat.png">
-			<div class="path-main-icon">
-			<h3 class="path-main-title">HUMANS</h3>	
-			<i class="fas fa-seedling"></i>	
-			</div></a>	
-			</div>	
-		</div>
-
-				<div class="path-main sidebar-4">
-				<a href="Sub Pages 5.html"><div class="path-main-color">
-			<img src="angry.png">
-			<div class="path-main-icon">
-			<h3 class="path-main-title">EMOTION</h3>	
-			<i class="fas fa-seedling"></i>	
-			</div></a>	
-			</div>	
-		</div>
+<li>
+  	<div class="container__main">
+			<img src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"  width="250px" height="250px">
+			<a href="./">RABBIT</a>
+			<div class="container__main--color">
+				<div class="color" style="background-color: #2ecc71;"></div>
+				<div class="color" style="background-color: #27ae60;"></div>
+				<div class="color" style="background-color: #6ab04c;"></div>
+				<div class="color" style="background-color: #953B21;"></div>
+				<div class="color" style="background-color: #78392A;"></div>
+			</div>
+			<div class="container__main--overlay">
+				<div class="container__main--center">
+					<div class="container__main--center--hero">
+						<a href="./"><h4>COPY</h4></a>
+						<a href="./"><h4>SVG</h4></a>
+						<a href="./"><h4>PNG</h4></a>
+					</div>
+				</div>
+			</div>
 	</div>
-</div>
-<!-------------end----------------------------->
-<div class="end-of-page">
-	<h2>THANK YOU VERY MUCH</h2>
-	<h5>- phatnguyenngoc -</h5>
+</li>
 
-<ul>
-	<li>Web developer: me</li>
-	<li>Designer: still me</li>
-	<li>The hardest worker: alone</li>
-	<li>Who: what???</li>
-</ul>
-
-<img src="">
-</div>
-
-
-
-<!--------------backgrounds-------------------->
-<div class="d-flex flex-column justify-content-center w-100 h-100">
-	<div class="d-flex flex-column justify-content-center align-items-center">
-		</div>
+<li>
+  	<div class="container__main">
+			<img src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"   width="250px" height="250px">
+			<a href="./">RABBIT</a>
+			<div class="container__main--color">
+				<div class="color" style="background-color: #2ecc71;"></div>
+				<div class="color" style="background-color: #27ae60;"></div>
+				<div class="color" style="background-color: #6ab04c;"></div>
+				<div class="color" style="background-color: #953B21;"></div>
+				<div class="color" style="background-color: #78392A;"></div>
+			</div>
 	</div>
-</div>
-   </body>
+	<div class="container__main--overlay">
+		<div class="container__main--center">
+					<div class="container__main--center--hero">
+						<form method="get" action="svg.png">
+   <button type="submit">Download!</button>
+</form>
+						<a href="./" class="button"><h4>SVG</h4></a>
+						<a href="./" class="button"><h4>PNG</h4></a>
+					</div>
+				</div>
+			</div>
+</li>
+	</ul>
+<div class="button-wrapper" data-tippy-content="Click to copy button 2">
+          <button class="button-2" role="button">Button 2</button>
+        </div>
+<script>
+	
+    const isMac = navigator.appVersion.indexOf("Mac") != -1
+
+    if (isMac) {
+      document.querySelector('.shortcuts-disclaimer .shortcut').textContent = '⌘+D'
+    }
+
+    function copyToClipboard (value) {
+      const tempInput = document.createElement("textarea");
+      tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+      tempInput.value = value
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      return true;
+    }
+
+    const ul = document.querySelector('ul')
+    const buttons = [
+      {
+        credits: 'Dribbble',
+        css: `
+         abc
+        `,
+      },
+    ]
+
+    async function addButton (button) {
+      const index = buttons.indexOf(button) + 1
+
+      const li = document.createElement('li')
+      let html = `<button class="button-${index}" role="button">Button ${index}</button>`
+      if (button.html) {
+        html = button.html.replace(/{index}/g, index)
+      }
+      if (button.liBackground) {
+        li.style.background = button.liBackground
+      }
+      console.log('porraaa', html)
+      li.innerHTML = `
+        <div class="button-wrapper">
+          ${html}
+        </div>
+        <style>
+          ${button.css.replace(/{index}/g, index)}
+        </style>
+        <span class="credits">
+          by ${button.credits}
+        </span>
+      `
+
+      li.querySelector('.button-wrapper').dataset.tippyContent = `Click to copy button ${index}`
+      ul.appendChild(li)
+
+      li.addEventListener('click', function (e) {
+        const textElement = button.html
+          ? (li.querySelector('button .text') || li.querySelector('button'))
+          : li.querySelector('button')
+
+        const previousTextContent = textElement.textContent
+        copyToClipboard(`
+          <!-- HTML !-->
+          ${html}
+
+          /* CSS */${button.css.replace(/{index}/g, index)}
+          ${button.liBackground ? `\n/* Parent background */\n${button.liBackground}` : ''}
+        `.replace(/^ {10}/gm, '').trim())
+        if (textElement.textContent !== `Copied ${index}`) {
+          li.classList.add('copied')
+          textElement.textContent = `Copied ${index}`
+          setTimeout(() => {
+            textElement.textContent = previousTextContent
+            li.classList.remove('copied')
+          }, 1000)
+        }
+      })
+    }
+
+    async function processArray (buttonsArray) {
+      buttonsArray.map((button) => addButton(button))
+    }
+
+    processArray(buttons)
+  
+</script>
+</body>
 </html>
