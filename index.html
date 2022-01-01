@@ -87,7 +87,7 @@
 	<div class="container__main--overlay">
 		<div class="container__main--center">
 					<div class="container__main--center--hero">
-						<button type="submit" onclick="window.open('svg.png')" target='_blank'>Download!</button>
+						<button type="submit" onclick="window.open('svg.png')">Download!</button>
 
 						<a href="./" class="button"><h4>SVG</h4></a>
 						<a href="./" class="button"><h4>PNG</h4></a>
@@ -99,8 +99,16 @@
 <div class="button-wrapper" data-tippy-content="Click to copy button 2">
           <button class="button-2" role="button">Button 2</button>
         </div>
+
+
 <script>
-	
+	function download() {
+
+window.open(‘zipfile.zip’);
+
+}
+</script>        
+<script>
     const isMac = navigator.appVersion.indexOf("Mac") != -1
 
     if (isMac) {
